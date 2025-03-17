@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flood fill</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>SIMPLE FLOOD FILL</h1>  
+        <div>
+            <hr>
+            <input type="text" id="input_size" placeholder="Enter the board size" value="25">
+            <button id = "btn_generate_board">Generate board</button>
+            <label> | </label>
+            <button id = "btn_flood_fill_dfs">Flood Fill DFS</button>
+            <button id = "btn_flood_fill_bfs">Flood Fill BFS</button><label> | </label>
+            <button id = "btn_0" class="color_picker">White</button>
+            <button id = "btn_1" class="color_picker">Black</button>
+            <button id = "btn_2" class="color_picker">Red</button>
+            <button id = "btn_3" class="color_picker">Green</button>
+            <button id = "btn_4" class="color_picker">Orange</button>
+            <Label id="lbl_curcolor"><b>Current color: black</b></Label>
+            <hr>
+            <table id="board"></table>
+        </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
