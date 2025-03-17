@@ -1,7 +1,10 @@
 # Flood Fill Visualizer
 
 This project is a simple flood fill visualizer implemented in JavaScript, HTML, and CSS. It allows users to interactively create a grid, paint cells, and apply flood fill algorithms using both Depth-First Search (DFS) and Breadth-First Search (BFS).
+
 I was asked to develop this flood fill algorithm during an Amazon interview! I decided to visually develop both versions of the algorithm in order to have a deeper understanding on how they behave differently.
+
+![Alt Text](./flood_fill_demo.gif)
 
 ## Features
 - **Interactive Grid Creation**: Users can generate a square grid of customizable size.
@@ -40,7 +43,3 @@ I was asked to develop this flood fill algorithm during an Amazon interview! I d
 
 ## Future Improvements
   - Too many LOL
-
-## Demo
-
-![Alt Text](./flood_fill_demo.gif)
